@@ -10,7 +10,7 @@ class Config(object):
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "7525776533:AAFbPEiZIVUJ2NIJU2GGW25okECAwQUHdKU") 
    
     # database config
-    DATABASE_NAME = os.environ.get("DATABASE_NAME","")     
+    DATABASE_NAME = os.environ.get("DATABASE_NAME","mongodb+srv://STRenameBot:STRenameBot@cluster0.p7bubb0.mongodb.net/?retryWrites=true&w=majority")     
     DATABASE_URL  = os.environ.get("DATABASE_URL","shuvo")
  
     # other configs
@@ -20,7 +20,7 @@ class Config(object):
 
     # channels logs
     FORCE_SUBS   = os.environ.get("FORCE_SUBS", "-1002827992080") 
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", ""))
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002342857145"))
 
     # wes response configuration     
     WEBHOOK = bool(os.environ.get("WEBHOOK", False))

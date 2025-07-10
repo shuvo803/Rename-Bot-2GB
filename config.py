@@ -15,7 +15,7 @@ class Config(object):
  
     # other configs
     BOT_UPTIME  = time.time()
-    START_PIC   = os.environ.get("START_PIC", "")
+    START_PIC   = os.environ.get("START_PIC", "https://envs.sh/eqr.webp")
     ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '6509218702').split()]
 
     # channels logs

@@ -7,10 +7,10 @@ class Config(object):
     # pyro client config
     API_ID    = os.environ.get("API_ID", "23864777")
     API_HASH  = os.environ.get("API_HASH", "1ad9abca4b87cee505e4ed3b1a811665")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "7525776533:AAFbPEiZIVUJ2NIJU2GGW25okECAwQUHdKU") 
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
    
     # database config
-    DATABASE_NAME = os.environ.get("DATABASE_NAME","mongodb+srv://STRenameBot:STRenameBot@cluster0.p7bubb0.mongodb.net/?retryWrites=true&w=majority")     
+    DATABASE_NAME = os.environ.get("DATABASE_NAME","mongodb+srv://ShuvoBot:ShuvoBot@cluster0.mdhwz.mongodb.net/?retryWrites=true&w=majority")     
     DATABASE_URL  = os.environ.get("DATABASE_URL","shuvo")
  
     # other configs

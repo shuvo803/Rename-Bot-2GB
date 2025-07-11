@@ -10,7 +10,7 @@ class Config(object):
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
    
     # database config
-    DATABASE_NAME = os.environ.get("DATABASE_NAME","mongodb+srv://ShuvoBot:ShuvoBot@cluster0.mdhwz.mongodb.net/?retryWrites=true&w=majority")     
+    DATABASE_NAME = os.environ.get("DATABASE_NAME","mongodb+srv://STRenameBot:STRenameBot@cluster0.p7bubb0.mongodb.net/?retryWrites=true&w=majority")     
     DATABASE_URL  = os.environ.get("DATABASE_URL","shuvo")
  
     # other configs
